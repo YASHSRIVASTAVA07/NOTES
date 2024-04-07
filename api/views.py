@@ -7,8 +7,6 @@ from .models import Note
 from .serializers import NoteSerializer
 from api import serializers
 from .utils import updateNote, getNoteDetail, deleteNote, getNotesList, createNote
-# Create your views here.
-
 
 @api_view(['GET'])
 def getRoutes(request):
